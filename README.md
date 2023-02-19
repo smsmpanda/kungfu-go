@@ -1,1 +1,3 @@
 # KungfuGo
+
+Only for learning
