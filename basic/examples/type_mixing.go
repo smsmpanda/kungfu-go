@@ -1,4 +1,4 @@
-package main
+package examples
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ import (
 //1. 在循环中使用+拼接字符串并不是最高效的方法，更好的办法应该是使用函数string.join
 //2. 使用字节缓冲bytes.buffer
 
-func main() {
+func main14() {
 	var n int16 = 34
 	var m int32
 	// compiler error: cannot use n (type int16) as type int32 in assignment

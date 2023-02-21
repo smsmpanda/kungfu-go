@@ -1,8 +1,8 @@
-package main
+package examples
 
 import "fmt"
 
-func main() {
+func main10() {
 	var i1 = 5
 	fmt.Printf("An integer: %d, its location in memory: %p\n", i1, &i1)
 	var intP *int

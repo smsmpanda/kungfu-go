@@ -1,8 +1,8 @@
-package main
+package examples
 
 import "fmt"
 
-func main() {
+func main13() {
 	var num1 int = 100
 	switch num1 {
 	case 98, 99:

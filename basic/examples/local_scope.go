@@ -1,8 +1,8 @@
-package main
+package examples
 
 var a = "G"
 
-func main() {
+func main9() {
 	n()
 	m()
 	n()

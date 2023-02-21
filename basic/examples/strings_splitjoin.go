@@ -1,4 +1,4 @@
-package main
+package examples
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func main() {
+func main12() {
 	str := "The quick brown fox jumps over the lazy dog"
 	sl := strings.Fields(str)
 	fmt.Printf("Splitted in slice: %v\n", sl)

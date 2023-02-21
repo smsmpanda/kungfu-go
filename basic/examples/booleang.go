@@ -1,4 +1,4 @@
-package main
+package examples
 
 import (
 	"fmt"
@@ -16,7 +16,7 @@ func init() {
 	fmt.Println(prompt)
 }
 
-func main() {
+func main1() {
 	bool1 := true
 	if bool1 {
 		fmt.Println("The value is true")

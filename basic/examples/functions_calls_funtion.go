@@ -1,8 +1,8 @@
-package main
+package examples
 
-var a string
+var a1 string
 
-func main() {
+func main7() {
 	a = "G"
 	print(a)
 	f1()
