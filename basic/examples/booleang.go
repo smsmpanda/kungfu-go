@@ -2,19 +2,18 @@ package examples
 
 import (
 	"fmt"
-	"runtime"
 )
 
 var prompt = "Enter a digit, e.g.3 " + "or %s to quit."
 
-func init() {
-	if runtime.GOOS == "windows" {
-		prompt = fmt.Sprintf(prompt, "Ctrl+Z, Enter")
-	} else {
-		prompt = fmt.Sprintf(prompt, "Ctrl+D")
-	}
-	fmt.Println(prompt)
-}
+// func init() {
+// 	if runtime.GOOS == "windows" {
+// 		prompt = fmt.Sprintf(prompt, "Ctrl+Z, Enter")
+// 	} else {
+// 		prompt = fmt.Sprintf(prompt, "Ctrl+D")
+// 	}
+// 	fmt.Println(prompt)
+// }
 
 func main1() {
 	bool1 := true
