@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	examples.Gorun()
+	examples.Going()
 }
