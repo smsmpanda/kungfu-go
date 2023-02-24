@@ -2,7 +2,7 @@ package examples
 
 import "fmt"
 
-func Going() {
+func Going2() {
 	a := []int{1, 5, 6, 7, 12, 61, 754, 12415}
 	going(a...)
 	going1(a)
