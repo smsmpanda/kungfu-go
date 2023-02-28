@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-func Going() {
+func Goingde() {
 	func1("Go")
 }
 
