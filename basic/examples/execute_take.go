@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func Going() {
+func Going1231231() {
 	result := 0
 	start := time.Now()
 	for i := 0; i <= 25; i++ {

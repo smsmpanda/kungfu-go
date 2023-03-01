@@ -6,5 +6,5 @@ import (
 
 func main() {
 	examples.Going()
-	// algorithm.Algorithmgo(100)
+	// algorithm.Going()
 }

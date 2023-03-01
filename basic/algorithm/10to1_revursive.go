@@ -15,7 +15,6 @@ func Algorithmgo(n int) {
 func printrec(i int) {
 	if i > 3 {
 		return
-
 	}
 	printrec(i + 1)
 	fmt.Printf("%d ", i)
