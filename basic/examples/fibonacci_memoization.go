@@ -9,7 +9,7 @@ const LIM = 40
 
 var fibs [LIM]uint64
 
-func Going() {
+func Going11111111() {
 	var result uint64 = 0
 	start := time.Now()
 	for i := 0; i < LIM; i++ {
