@@ -11,7 +11,7 @@ type pixel int
 
 var screen [WIDTH][HEIGHT]pixel
 
-func Going() {
+func Going411() {
 	for y := 0; y < HEIGHT; y++ {
 		for x := 0; x < WIDTH; x++ {
 			screen[x][y] = 0
