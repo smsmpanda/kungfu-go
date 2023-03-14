@@ -2,7 +2,7 @@ package examples
 
 import "fmt"
 
-func Going() {
+func Going21312() {
 
 	s1 := []string{"L", "o", "v", "e"}
 	s2 := []string{"I", "Y", "o", "u"}
