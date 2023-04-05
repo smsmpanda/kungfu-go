@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func Gorun() {
+func Gorun1321() {
 	var GDPMap = map[string]float64{"beijing": 1415151.12, "shanghai": 14123123.12}
 	for key, value := range GDPMap {
 		fmt.Printf("%s's gdp is %f.\n", key, value)
