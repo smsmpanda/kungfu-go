@@ -1,7 +1,7 @@
 package main
 
 import (
-	"myexample/basic/demo"
+	"myexample/basic/dstructmap"
 )
 
 func main() {
@@ -9,5 +9,7 @@ func main() {
 	//algorithm.Going()
 	//dstructmap.Gorun()
 	// other.Gorun()
-	demo.Gorun()
+	//demo.Gorun()
+
+	dstructmap.Gorun()
 }
