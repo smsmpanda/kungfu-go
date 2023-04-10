@@ -34,7 +34,7 @@ func NewFile(fd int, name string) *File {
 	return &File{fd, name}
 }
 
-func Gorun() {
+func Gorun12312() {
 	r1 := Rectangle{4, 3}
 	fmt.Println("Rectangle is: ", r1)
 	fmt.Println("Rectangle area is: ", r1.Area())
