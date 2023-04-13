@@ -1,8 +1,6 @@
 package main
 
-import (
-	"myexample/basic/dstructmap"
-)
+import "myexample/basic/methods"
 
 func main() {
 	//examples.Going()
@@ -11,5 +9,5 @@ func main() {
 	// other.Gorun()
 	//demo.Gorun()
 
-	dstructmap.Gorun()
+	methods.Gorun()
 }
