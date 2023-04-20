@@ -10,7 +10,7 @@ type Stack struct {
 	data []int
 }
 
-func Gorun() {
+func Gorun451241() {
 	st := new(Stack)
 	st.Push(2)
 	fmt.Printf("%v\n", st)

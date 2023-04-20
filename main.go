@@ -1,6 +1,8 @@
 package main
 
-import "myexample/basic/methods"
+import (
+	"myexample/basic/myinterface"
+)
 
 func main() {
 	//examples.Going()
@@ -9,5 +11,5 @@ func main() {
 	// other.Gorun()
 	//demo.Gorun()
 
-	methods.Gorun()
+	myinterface.Gorun()
 }
