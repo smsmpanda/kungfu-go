@@ -24,7 +24,7 @@ func fI(it Simpler) int {
 	return it.Get()
 }
 
-func Gorun() {
+func Gorun213123() {
 	var s Simple
 	fmt.Println(fI(&s))
 }

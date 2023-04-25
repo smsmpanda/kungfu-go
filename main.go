@@ -1,7 +1,7 @@
 package main
 
 import (
-	"myexample/basic/myinterface"
+	"myexample/basic/goreflect"
 )
 
 func main() {
@@ -11,5 +11,5 @@ func main() {
 	// other.Gorun()
 	//demo.Gorun()
 
-	myinterface.Gorun()
+	goreflect.Gorun()
 }
