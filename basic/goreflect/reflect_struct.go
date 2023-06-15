@@ -20,7 +20,7 @@ type T struct {
 	B string
 }
 
-func Gorun() {
+func Gorun1234441111111() {
 	value := reflect.ValueOf(secret)
 	typ := reflect.TypeOf(secret)
 
