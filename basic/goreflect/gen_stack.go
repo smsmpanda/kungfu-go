@@ -40,6 +40,6 @@ func (stack *Stack) Pop() (interface{}, error) {
 	return top, nil
 }
 
-func Gorun() {
+func Gorun213() {
 	fmt.Println("fsdf")
 }
