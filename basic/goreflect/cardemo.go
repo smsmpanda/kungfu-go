@@ -55,7 +55,7 @@ func MakeSortedAppender(manufacturers []string) (func(car *Car), map[string]Cars
 	return appender, sortedCars
 }
 
-func Gorun() {
+func Gorun124512() {
 
 	// make some cars:
 	ford := &Car{"Fiesta", "Ford", 2008}
