@@ -26,4 +26,3 @@ redis.call('incrby',stockKey,-1)
 --3.5.下单
 redis.call('sadd',orderKey,userId)
 return 0
-

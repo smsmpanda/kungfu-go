@@ -8,7 +8,7 @@ import (
 	"strconv"
 )
 
-func Gorun() {
+func Gorunc123() {
 	buf := bufio.NewReader(os.Stdin)
 
 	calc1 := new(methods.Stack)
