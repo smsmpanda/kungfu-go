@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func Gorun() {
+func Gorun123rg() {
 	CopyFile("resources/target.txt", "resources/source.txt")
 	fmt.Println("Copy done!")
 }

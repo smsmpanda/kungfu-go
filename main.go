@@ -1,8 +1,6 @@
 package main
 
-import (
-	"myexample/basic/osrel"
-)
+import "myexample/basic/cryptography"
 
 func main() {
 	//examples.Going()
@@ -10,6 +8,6 @@ func main() {
 	//dstructmap.Gorun()
 	// other.Gorun()
 	//demo.Gorun()
-
-	osrel.Gorun()
+	// osrel.Gorun()
+	cryptography.Gorun()
 }
