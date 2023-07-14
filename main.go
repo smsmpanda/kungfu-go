@@ -1,6 +1,8 @@
 package main
 
-import "myexample/basic/cryptography"
+import (
+	"myexample/basic/panicrecover"
+)
 
 func main() {
 	//examples.Going()
@@ -9,5 +11,5 @@ func main() {
 	// other.Gorun()
 	//demo.Gorun()
 	// osrel.Gorun()
-	cryptography.Gorun()
+	panicrecover.Gorun()
 }

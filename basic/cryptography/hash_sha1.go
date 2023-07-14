@@ -8,7 +8,7 @@ import (
 	"log"
 )
 
-func Gorun() {
+func Gorunhash() {
 	hasher := sha1.New()
 	io.WriteString(hasher, "test")
 	b := []byte{}
