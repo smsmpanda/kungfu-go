@@ -25,4 +25,7 @@
 尽管这看上去是非常严格的约束，实际在大部分情况下工作的很不错。
 
 
-
+#### 通道的方向
+通道类型可以用注解来表示它只发送或者只接收：
+> var send_only chan<- int 		// channel can only receive data
+> var recv_only <-chan int		// channel can only send data

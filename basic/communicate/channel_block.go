@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func Gorun() {
+func GorunChannelBlock() {
 	// ch1 := make(chan int)
 	// go suck(ch1)
 	// go pump(ch1)
