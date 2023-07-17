@@ -1,7 +1,7 @@
 package main
 
 import (
-	"myexample/basic/panicrecover"
+	"myexample/basic/communicate"
 )
 
 func main() {
@@ -11,5 +11,5 @@ func main() {
 	// other.Gorun()
 	//demo.Gorun()
 	// osrel.Gorun()
-	panicrecover.Gorun()
+	communicate.Gorun()
 }

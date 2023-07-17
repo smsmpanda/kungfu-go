@@ -16,7 +16,7 @@ func test() {
 	fmt.Printf("After bad call\r\n") // <-- would not reach
 }
 
-func Gorun() {
+func Gorunpanicerror() {
 	fmt.Printf("Calling test\r\n")
 	test()
 	fmt.Printf("Test completed\r\n")
