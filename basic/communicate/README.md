@@ -29,3 +29,23 @@
 通道类型可以用注解来表示它只发送或者只接收：
 > var send_only chan<- int 		// channel can only receive data
 > var recv_only <-chan int		// channel can only send data
+
+
+
+#### 协程的同步：关闭通道-测试阻塞的通道
+
+- 检测通道是否被关闭
+  >
+  > 使用逗号 ok 模式用来检测通道是否被关闭;
+  >
+  > v, ok := <-ch   // ok is true if v received value
+
+- 检测通道当前是否阻塞，需要使用 select;
+
+
+- 使用 for-range 语句来读取通道是更好的办法，因为这会自动检测通道是否关闭;
+
+
+
+#### select 切换协程
+从不同的并发执行的协程中获取值可以通过关键字 select 来完成，它和 switch 控制语句非常相似，也被称作通信开关；它的行为像是“你准备好了吗”的轮询机制；select 监听<span style="font-weight:bolder;color:red">进入通道的数据，也可以是用通道发送值的时候</span>。

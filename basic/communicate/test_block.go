@@ -24,7 +24,7 @@ func filter(in, out chan int, prime int) {
 }
 
 // The prime sieve: Daisy-chain filter processes together.
-func Gorun() {
+func Gorunf2() {
 	// ch := make(chan int) // Create a new channel.
 	// go generate(ch)      // Start generate() as a goroutine.
 	// for {
@@ -74,8 +74,6 @@ func Gorun() {
 		s := <-ch
 		fmt.Printf("go3 -> received::->%s\n", s)
 	}
-
-	time.Sleep(time.Second * 10000)
 }
 
 func go2(c chan string, str string) {
