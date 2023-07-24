@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func Gorun() {
+func Gorunfq() {
 	tick := time.Tick(1e8)
 	boom := time.After(5e8)
 	for {
