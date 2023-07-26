@@ -6,7 +6,7 @@ import (
 	"net"
 )
 
-func Gorun() {
+func Gorun41f() {
 	var (
 		host          = "www.baidu.com"
 		port          = "80"
