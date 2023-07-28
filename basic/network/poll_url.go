@@ -13,7 +13,7 @@ var urls = []string{
 	"https://www.qq.com",
 }
 
-func Gorun() {
+func Gorunsq() {
 	// for _, url := range urls {
 	// 	resp, err := http.Head(url)
 	// 	if err != nil {
