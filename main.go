@@ -1,7 +1,7 @@
 package main
 
 import (
-	"myexample/basic/network"
+	"myexample/basic/performence"
 )
 
 func main() {
@@ -12,5 +12,5 @@ func main() {
 	//demo.Gorun()
 	// osrel.Gorun()
 	//communicate.Gorun()
-	network.Gorun()
+	performence.Gorun()
 }

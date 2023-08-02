@@ -11,7 +11,7 @@ type Person struct {
 	nonExportedAgeField string
 }
 
-func Gorun() {
+func Gorunend() {
 	t := template.New("hello")
 	t, _ = t.Parse("hello {{.Name}}!")
 	p := Person{Name: "Mary", nonExportedAgeField: "31"}
