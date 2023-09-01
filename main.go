@@ -1,7 +1,7 @@
 package main
 
 import (
-	"myexample/basic/orm"
+	"myexample/selfl"
 )
 
 func main() {
@@ -12,5 +12,6 @@ func main() {
 	//demo.Gorun()
 	// osrel.Gorun()
 	//communicate.Gorun()
-	orm.Gorun()
+	//orm.Gorun()
+	selfl.Gorun()
 }
